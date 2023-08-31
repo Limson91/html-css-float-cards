@@ -12,21 +12,27 @@ body {
 
 img {
     width: 100px;
+    float: left;
 }
 
-.container {
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container2 {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .col {
     float:left;
-    width: calc((100% - 40px) /3); 
-    margin-right: 5px
+    width: (100% / 3);
 }
 
 .card {
-    float: left;
+    border: 1px solid;
+    padding: 20px;
 }
 
 .clearfix::after{
