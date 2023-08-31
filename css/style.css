@@ -1,12 +1,70 @@
-/* * {
+/*reset*/
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Fredoka', sans-serif;
     background-color: white;
-    max-width: 850px;
+}
+
+.container {
+    max-width: 1000px;
     margin: 0 auto;
 }
- */
+
+.main-title {
+    text-align: center;
+    color: #e53170;
+}
+
+p:first-child {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*style card*/
+
+.debug .card {
+    background-color: black;
+    text-align: center;
+    /* padding-left: 5px; */
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.card {
+    margin: 25px 15px;
+    float: left;
+    width: calc((100% / 3) - 30px);
+}
+
+img {
+    float: left;
+    width: 100px;
+}
+
+.name, .job {
+    font-size: small;
+    color: white;
+}
+
+.email {
+    font-style: normal;
+    color: #59bedc;
+    text-decoration: none;
+}
+
+.contact {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
