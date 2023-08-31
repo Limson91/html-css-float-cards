@@ -19,10 +19,11 @@ body {
 .main-title {
     text-align: center;
     color: #e53170;
+    margin: 40px;
 }
 
 p:first-child {
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -52,7 +53,12 @@ img {
     width: 100px;
 }
 
-.name, .job {
+.name {
+    color: white;
+    font-size: medium;
+}
+
+.job, .email {
     font-size: small;
     color: white;
 }
@@ -67,4 +73,22 @@ img {
     display: inline-block;
     text-align: left;
     vertical-align: middle;
+}
+
+/*style footer*/
+
+.bg-footer {
+    background-color: #222222;
+    line-height: 120px;
+    height: 158px;
+    text-align: center;
+}
+
+.info-footer {
+    color: white;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 1000px;
+    margin: 0 auto;
 }
